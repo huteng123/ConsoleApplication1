@@ -2,6 +2,7 @@
 
 void menu()
 {
+
 	int p;
 	void putList();
 	void Deletevertex();
