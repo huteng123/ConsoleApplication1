@@ -2,7 +2,6 @@
 
 void menu()
 {
-	printf("王帅其");
 	int p;
 	void putList();
 	void Deletevertex();
@@ -17,7 +16,7 @@ void menu()
 	printf("					  4.添加边							  \n");
 	printf("					  5.添加路由器						  \n");
 	printf("					  6.退出系统						  \n");
-	printf("					  请输入你的选择（1~6）can you see it                 \n");
+	printf("					  请输入你的选择（1~6）                 \n");
 	scanf("%d", &p);
 	if (p < 1 || p>6)
 	{
