@@ -2,6 +2,7 @@
 
 void menu()
 {
+	printf("ÍõË§Æä");
 	int p;
 	void putList();
 	void Deletevertex();

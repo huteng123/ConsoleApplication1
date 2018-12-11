@@ -17,6 +17,7 @@ RowColWeight rcw[100];
 
 void putList()
 {
+	//我艾盖汗国iGig
 	int xxx, j;
 	int distance[100], path[100];
 	printf("请输入你要生成的路由表的起始路由器是第几个路由器v\n");
