@@ -99,9 +99,12 @@ void DeleteVertex(AdjMGraph *G, int v)
 		//			  for(i=m3;i<G->vertices.size;i++)
 		for (i = m3, j = 0; j < G->vertices.size; j++)
 			G->edge[i][j] = MaxWeight;
-		
+		//		   for(i=m3;i<G->vertices.size;i++)
+	//				   G->vertices.list[i]=G->vertices.list[i]-1;
+		//		       G->vertices.size--;
+		//			printf("删除结点成功\n");
 	}
-	}
+}
 //有没有向是一样的。
 //在带权有向图G中取第v个顶点的第一个邻接顶点，如果这样的邻接顶点存在，则返回该顶点在顶点顺序表的序号，否则返回-1.时间复杂度:O(n)。
 int GetFirstVex(AdjMGraph G, int v)
