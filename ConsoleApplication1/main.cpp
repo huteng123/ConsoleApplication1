@@ -42,7 +42,12 @@ void putList()
 	fclose(fp);
 	printf("从顶点%d到其他各顶点的最短距离为：\n", a[xxx]);
 	for (j = 0; j < g1.vertices.size; j++) {
+		bool flag = 1;
 		if (j == xxx) continue;
+		for (int i = 0; i < g1.vertices.size; ++i) {
+			if (g1.edge[j][i] != MaxWeight)   flag = 0;
+		}
+		if (flag == 1)  continue;
 		printf("到顶点%d的最短距离为%d\n", a[j], distance[j]);
 	}
 	menu();
