@@ -2,7 +2,7 @@
 
 void menu()
 {
-
+	//gaidong
 	int p;
 	void putList();
 	void Deletevertex();
