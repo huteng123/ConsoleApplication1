@@ -19,7 +19,7 @@ void putList()
 {
 	int xxx, j;
 	int distance[100], path[100];
-	printf("请输入你要生成的路由表的起始路由器是第几个路由器v\n");
+	printf("请输入你要生成的路由表的起始路由器是第几个路由器\n");
 	scanf("%d", &xxx);
 	xxx--;
 	Dijkstra(&g1, xxx, distance, path);
@@ -45,7 +45,11 @@ void putList()
 	printf("从顶点%d到其他各顶点的最短距离为：\n", a[xxx]);
 	for (j = 0; j < g1.vertices.size; j++) {
 		bool flag = 1;
-		if (j == xxx) continue;
+		if (j == xxx) {
+			printf("到顶点%d的最短距离为%d\n", a[j], distance[j]);
+			continue;
+		}
+		//if (j == xxx) continue;
 		for (int i = 0; i < g1.vertices.size; ++i) {
 			if (g1.edge[j][i] != MaxWeight)   flag = 0;
 		}
