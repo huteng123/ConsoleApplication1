@@ -69,6 +69,7 @@ int main()
   //  RowColWeight rcw[100];
 
 	fp = fopen("tuoputu10.txt","r");
+	printf("hello\n");
 
 	fscanf(fp, "%d", &i);
 	for (k = 0; k < i; k++)
