@@ -28,7 +28,10 @@ void putList()
 	fp = fopen("luyoubiao.txt", "w");
 	for (int i = 0; i < g1.vertices.size; i++)
 	{
-		if (i == xxx) continue;
+		if (i == xxx) {
+			printf("%5d%12d\n", xxx + 1, xxx + 1);
+			continue;
+		}
 		j = i;
 		while (path[j] != xxx)
 		{
@@ -69,7 +72,6 @@ int main()
   //  RowColWeight rcw[100];
 
 	fp = fopen("tuoputu10.txt","r");
-	printf("hello\n");
 
 	fscanf(fp, "%d", &i);
 	for (k = 0; k < i; k++)
