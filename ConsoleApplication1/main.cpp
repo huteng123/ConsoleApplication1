@@ -70,7 +70,7 @@ int main()
 	FILE *fp;           //读入文件
 //	int a[MaxSize];
   //  RowColWeight rcw[100];
-
+	printf("hello word\n");
 	fp = fopen("tuoputu10.txt","r");
 
 	fscanf(fp, "%d", &i);
