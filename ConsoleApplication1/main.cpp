@@ -5,6 +5,7 @@
 #include "graph.h"
 #include <malloc.h>
 #include <stdlib.h>
+#include <string.h>
 #include "menu.h"
 #pragma warning(suppress : 4477)
 #pragma warning(disable : 4996)
