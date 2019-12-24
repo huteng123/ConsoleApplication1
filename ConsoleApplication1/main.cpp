@@ -74,7 +74,7 @@ void putList()
 
 int main()
 {
-    malloc(a,1,10*sizeof(int));
+    memset(a,1,10*sizeof(int));
     //	AdjMGraph g1;
     int i, j, k;
     FILE *fp;           //读入文件

@@ -4,4 +4,5 @@
 #include "menu.h"
 
 extern AdjMGraph g1;
+extern int isExist[10];
 void Deletevertex();
