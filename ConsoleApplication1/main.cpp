@@ -22,7 +22,7 @@ void putList()
 {
 	int xxx, j;
 	int distance[100], path[100];
-	printf("请输入你要生成的路由表的起始路由器是第几个路由器\n");
+	printf("输入你要生成的路由表的起始路由器是第几个路由器\n");
 	scanf("%d", &xxx);
 	xxx--;
     Dijkstra(&g1, xxx, distance, path);
