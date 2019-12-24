@@ -26,7 +26,7 @@ void putList()
 	scanf("%d", &xxx);
 	xxx--;
     Dijkstra(&g1, xxx, distance, path);
-    if(isExist[xxx] == 0){
+    if(isExist[xxx] == 1){
         printf("无此路由表\n");
     }else{
         FILE *fp;
@@ -76,7 +76,7 @@ void putList()
 
 int main()
 {
-    memset(a,1,10*sizeof(int));
+    memset(a,0,10*sizeof(int));
     //	AdjMGraph g1;
     int i, j, k;
     FILE *fp;           //读入文件
