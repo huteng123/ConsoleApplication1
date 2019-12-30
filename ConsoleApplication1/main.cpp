@@ -83,7 +83,7 @@ int main()
     //	int a[MaxSize];
     //  RowColWeight rcw[100];
     fp = fopen("tuoputu10.txt","r");
-
+    //1234
     fscanf(fp, "%d", &i);
     for (k = 0; k < i; k++)
     {
